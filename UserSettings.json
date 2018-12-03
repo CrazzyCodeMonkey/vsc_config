@@ -10,7 +10,6 @@
     "editor.formatOnPaste": true,
     "projectManager.openInNewWindowWhenClickingInStatusBar": true,
     "projectManager.groupList": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "workbench.iconTheme": "material-icon-theme",
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
@@ -20,11 +19,24 @@
     },
     "files.autoSave": "onFocusChange",
     "explorer.confirmDragAndDrop": false,
-    "java.home": "C:\\Program Files\\Java\\jdk1.8.0_91",
     "terminal.integrated.scrollback": 2000,
     "npm.enableScriptExplorer": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.formatOnSave": false,
     "breadcrumbs.enabled": true,
-    "editor.minimap.enabled": true
+    "editor.minimap.enabled": true,
+    "git.autofetch": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": false
+    },
+    "githubPullRequests.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+    "liveshare.connectionMode": "relay"
 }
